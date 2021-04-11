@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>Covid-19 tracker</title>
+  <link rel="stylesheet" href="./Style/index.css">  
+</head>
+<body style="background-image: url('./image/coronavirus-2.jpg');background-repeat: no-repeat;background-size: cover; background-attachment: fixed;">
+<form>
+<input type="text" class="m1" value="india" placeholder="Enter Country" id="cn">
+<input type="date" class="m2" id="sd">
+<input type="date" class="m3" id="ed">
+<button onclick="show()">Submit</button>
+</form>
+<div id="res">
+    <h4>Confirmed Cases : <span id="c"></span> </h4>
+    <h4>Active Cases : <span id="a"></span></h4>
+    <h4>Death Cases : <span id="d"></span> </h4>
+</div>
+    <script src="Script/index.js"></script>
+</body>
+</html>
